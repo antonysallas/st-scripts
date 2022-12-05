@@ -59,6 +59,7 @@ A simple format for recording personal notes.
 ---
 
 4. **[Syntax](https://github.com/antonysallas/sublimetext-snippets/tree/main/syntax)**
+
 **Agile.sublime-syntax**
 
 For the content generated using the User Story snippet, you can save it using `.agile` file extension. And the generated file would have the keywords highlighted as included in the syntax file.
