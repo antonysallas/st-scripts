@@ -1,6 +1,7 @@
 <snippet>
 	<content><![CDATA[
 Decision-Notes_${1:cmd+shift+8}.note
+--------------------------------
 
 Date: ${2:cmd+shift+9}
 Status: ${3:OPEN, NOT STARTED, IN PROGRESS, DECISION MADE}
