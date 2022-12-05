@@ -2,17 +2,20 @@
 
 ## Dependencies
 Dates are inserted in these snippets using the insert_date package. You can install this using Sublime Text Package Control.
-https://packagecontrol.io/packages/InsertDate
-https://github.com/FichteFoll/InsertDate
+- https://packagecontrol.io/packages/InsertDate
+- https://github.com/FichteFoll/InsertDate
 
-## Note
+### Note
 Sublime Text autogenerates the filename when you press Cmd+S/Ctrl+S, so the first line is most of the scripts here is the filename to make it easier to save.
+----------------------------------------------------------------------------------------
 
 ## Keymap
 You can find the Custom keymaps that I use.
+----------------------------------------------------------------------------------------
 
 ## Preferences
 Here you can find my Custom preferences
+----------------------------------------------------------------------------------------
 
 ## Snippets
 ### 155-Report.sublime-snippet
@@ -32,6 +35,7 @@ A simple format for noting down disucssion points during meetings.
 
 ### personal-notes.sublime-snippet
 A simple format for recording personal notes.
+----------------------------------------------------------------------------------------
 
 ## Syntax
 ### Agile.sublime-syntax
@@ -42,6 +46,6 @@ The extension for the decision file is .decision
 
 ### Journal.sublime-syntax
 And for the content created using journal snippet is as you can guess, .journal
+----------------------------------------------------------------------------------------
 
 Have fun and feel free to modify these to suit your needs.
-
