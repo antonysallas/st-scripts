@@ -1,0 +1,24 @@
+{
+    "color_scheme": "Packages/Color Scheme - Default/Mariana.sublime-color-scheme",
+    "font_options":
+    [
+        "no_bold",
+        "no_italic",
+        "gray_antialias",
+        "no_liga",
+        "no_clig",
+        "no_calt",
+        "subpixel_antialias"
+    ],
+    "font_face": "Fira Code Retina",
+    "font_size": 15,
+    "ignored_packages":
+    [
+        "Vintage",
+    ],
+    "line_numbers": true,
+    "line_padding_bottom": 4,
+    "line_padding_top": 4,
+    "theme": "Adaptive.sublime-theme",
+    "word_wrap": "true",
+}

@@ -1,0 +1,15 @@
+%YAML 1.2
+---
+# See http://www.sublimetext.com/docs/3/syntax.html
+file_extensions:
+  - decision
+scope: source.decision
+contexts:
+  main:
+    - match: '\b(Date:|Status:|Impact:|Driver:|Approver:|Contributors:|Informed:|Resources:|Relevant data:|Background:|Options Considered:|Outcomes:|Action items:|Owner:|Target Date:|References:)\b'
+      scope: keyword.control.decision
+
+  line_comment:
+    - meta_scope: comment.line.example-c
+    - match: $
+      pop: true

@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+Meeting-Notes_${1:cmd+shift+8}.note
+--------------------------------
+
+Date: ${2:cmd+shift+9}
+Subject: ${3}
+
+Notes:
+${4}
+
+]]></content>
+	<tabTrigger>mns</tabTrigger>
+    <description>Meeting notes Snippet</description>
+</snippet>

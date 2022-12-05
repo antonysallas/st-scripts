@@ -1,0 +1,15 @@
+%YAML 1.2
+---
+# See http://www.sublimetext.com/docs/3/syntax.html
+file_extensions:
+  - agile
+scope: source.agile
+contexts:
+  main:
+    - match: '\b(As a|As an|I want to|so that|Given|And|When|Then)\b'
+      scope: keyword.control.agile
+
+  line_comment:
+    - meta_scope: comment.line.example-c
+    - match: $
+      pop: true

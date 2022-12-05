@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+Personal-Notes_${1:cmd+shift+8}.note
+----------------------------------
+
+Date: ${2:cmd+shift+9}
+What's this about: ${3}
+
+]]></content>
+	<tabTrigger>pns</tabTrigger>
+    <description>Personal Notes Snippet</description>
+</snippet>

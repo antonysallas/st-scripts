@@ -1,0 +1,120 @@
+[
+    {
+        "keys":
+        [
+            "super+shift+w"
+        ],
+        "command": "toggle_setting",
+        "args":
+        {
+            "setting": "word_wrap"
+        }
+    },
+    {
+        "keys":
+        [
+            "super+d"
+        ],
+        "command": "run_macro_file",
+        "args":
+        {
+            "file": "res://Packages/Default/Delete Line.sublime-macro"
+        }
+    },
+    {
+        "keys":
+        [
+            "super+shift+enter"
+        ],
+        "command": "open_url_under_cursor"
+    },
+    {
+        "keys":
+        [
+            "super+ctrl+p"
+        ],
+        "command": "pretty_json"
+    },
+    {
+        "keys":
+        [
+            "ctrl+shift+r"
+        ],
+        "command": "reindent",
+        "args":
+        {
+            "single_line": false
+        }
+    },
+    {
+        "keys":
+        [
+            "ctrl+shift+p"
+        ],
+        "command": "phpfmt"
+    },
+    {
+        "keys":
+        [
+            "alt+shift+h"
+        ],
+        "command": "toggle_highlight_duplicates"
+    },
+    {
+        "keys":
+        [
+            "alt+shift+s"
+        ],
+        "command": "toggle_select_duplicates"
+    },
+    {
+        "keys":
+        [
+            "alt+shift+r"
+        ],
+        "command": "remove_duplicates"
+    },
+    {
+        "keys":
+        [
+            "super+shift+c"
+        ],
+        "command": "title_case"
+    },
+    // 2022-12-05
+    {
+        "keys":
+        [
+            "super+shift+7"
+        ],
+        "command": "insert_date",
+        "args":
+        {
+            "format": "%Y-%m-%d"
+        }
+    },
+    // 20221205-1310
+    {
+        "keys":
+        [
+            "super+shift+8"
+        ],
+        "command": "insert_date",
+        "args":
+        {
+            "format": "%Y%m%d-%H%M"
+        }
+    },
+    // Mon Dec  5 13:10:45 2022 +08
+    {
+        "keys":
+        [
+            "super+shift+9"
+        ],
+        "command": "insert_date",
+        "args":
+        {
+            "format": "%c %Z"
+        }
+    }
+]

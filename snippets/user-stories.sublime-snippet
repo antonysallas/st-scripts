@@ -1,0 +1,37 @@
+<snippet>
+	<content><![CDATA[
+As a 
+I want to 
+so that 
+
+Prerequisites:
+1. 
+2. 
+
+Steps involved:
+1. 
+2. 
+
+Decisions/Assumptions made:
+1. 
+2. 
+
+Confluence Links:
+
+
+Acceptance Criteria:
+1.	Given
+		And
+		And
+	When
+	Then
+
+2.	Given
+		And
+		And
+	When
+	Then
+]]></content>
+	<tabTrigger>uss</tabTrigger>
+    <description>User Story Snippet</description>
+</snippet>

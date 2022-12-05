@@ -1,0 +1,15 @@
+%YAML 1.2
+---
+# See http://www.sublimetext.com/docs/3/syntax.html
+file_extensions:
+  - journal
+scope: source.journal
+contexts:
+  main:
+    - match: '\b(main achievements|anything worrying|concerning|feeling|morale|challenges|blockages|change|work environment|team|organisation|most proud|satisfied|differently|help)\b'
+      scope: keyword.control.journal
+
+  line_comment:
+    - meta_scope: comment.line.example-c
+    - match: $
+      pop: true
