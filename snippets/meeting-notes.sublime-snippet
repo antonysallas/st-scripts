@@ -1,15 +1,19 @@
 <snippet>
 	<content><![CDATA[
-Meeting-Notes_${1:cmd+shift+8}.note
---------------------------------
+Meeting-Notes_${1:cmd+shift+8}.md
 
-Date: ${2:cmd+shift+9}
-Subject: ${3}
+----
 
-Notes:
+### Date: ${2:cmd+shift+9}  
+### Subject: ${3}  
+
+### Participants  
 ${4}
 
+### Notes:  
+${5}
+
 ]]></content>
-	<tabTrigger>mns</tabTrigger>
+	<tabTrigger>mnote</tabTrigger>
     <description>Meeting notes Snippet</description>
 </snippet>

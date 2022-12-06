@@ -1,44 +1,46 @@
 <snippet>
 	<content><![CDATA[
-Decision-Notes_${1:cmd+shift+8}.note
---------------------------------
+Decision-Notes_${1:cmd+shift+8}.md  
 
-Date: ${2:cmd+shift+9}
-Status: ${3:OPEN, NOT STARTED, IN PROGRESS, DECISION MADE}
-Impact: ${4:CRITICAL, HIGH, MEDIUM, LOW}
-Driver: ${5}
-Approver: ${6}
-Contributors: ${7}
-Informed: ${8}
-Resources: ${9}
----------------------------------------------------------
+----
 
-Relevant data
+**Date:** ${2:cmd+shift+9}  
+**Status:** ${3:OPEN, NOT STARTED, IN PROGRESS, DECISION MADE}  
+**Impact:** ${4:CRITICAL, HIGH, MEDIUM, LOW}  
+**Driver:** ${5}  
+**Approver:** ${6}  
+**Contributors:** ${7}  
+**Informed:** ${8}  
+**Resources:** ${9}  
+
+----
+
+### Relevant data  
 ${10}
 
-Background
+### Background  
 ${11}
 
-Considerations
+### Considerations  
 ${12}
 
-Options Considered
+### Options Considered  
 1. ${13:Option #1}
 
-Outcomes
+### Outcomes  
 The team decided to go with the below option.
 ${14}
 
 
-Action items
+### Action items  
 - ${15:Action item 1}
 	- Owner: ${16:TBA}
 	- Target Date: ${17:TBA}
 
-References
+### References  
 ${18:[Link Text](http://a.com)}
 
 ]]></content>
-	<tabTrigger>dls</tabTrigger>
-    <description>Decision Log Snippet</description>
+	<tabTrigger>dcmf</tabTrigger>
+    <description>Decisions Made Snippet</description>
 </snippet>

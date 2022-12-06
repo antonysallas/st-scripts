@@ -4,34 +4,39 @@ As a
 I want to 
 so that 
 
-Prerequisites:
+### **Prerequisites:**
 1. 
 2. 
 
-Steps involved:
+### **Steps involved:**
 1. 
 2. 
 
-Decisions/Assumptions made:
+### **Decisions/Assumptions made:**
 1. 
 2. 
 
-Confluence Links:
+### **Confluence Links:**
 
 
-Acceptance Criteria:
-1.	Given
-		And
-		And
-	When
-	Then
+### **Acceptance Criteria:**
+1.	**Given**
+		**And**
+		**And**
+	**When**
+	**Then**
 
-2.	Given
-		And
-		And
-	When
-	Then
+2.	**Given**
+		**And**
+		**And**
+	**When**
+	**Then**
+
+
 ]]></content>
-	<tabTrigger>uss</tabTrigger>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>asa</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
     <description>User Story Snippet</description>
 </snippet>

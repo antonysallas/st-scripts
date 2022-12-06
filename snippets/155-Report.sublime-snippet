@@ -1,36 +1,40 @@
 <snippet>
 	<content><![CDATA[
-155-Report_${1:cmd+shift+8}.note
----------------------------------
+155-Report_${1:cmd+shift+8}.md
 
-Date: ${2:cmd+shift+9}
+----
 
-What are your main achievements this week? What are you most proud of or satisfied with?
+## Date: ${2:cmd+shift+9}
+
+### What are your main achievements this week? What are you most proud of or satisfied with?
 - ${2}
 
-Is there anything worrying or concerning you in or outside of work?
+### Is there anything worrying or concerning you in or outside of work?
 - Inside Work
 	- ${3}
 
 - Outside Work
 		- ${4}
 
-How are you feeling, and what is the morale of your team around you?
+### How are you feeling, and what is the morale of your team around you?
 	- ${5}
 
-Is there anything I could be doing better, differently or more of that would help you?
+### Is there anything I could be doing better, differently or more of that would help you?
 	- ${6}
 
-Where are you facing any challenges or blockages?
+### Where are you facing any challenges or blockages?
 	- ${7}
 
-What would you change about the work environment, the team, or the organisation?
+### What would you change about the work environment, the team, or the organisation?
 	- ${8}
 
-References:
-15-5 Reports in Open Practice Library: https://openpracticelibrary.com/practice/15-5-reports
+### References:
+[15-5 Reports in Open Practice Library](https://openpracticelibrary.com/practice/15-5-reports)
 
 ]]></content>
-	<tabTrigger>fives</tabTrigger>
-    <description>15-5 Report Snippet</description>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ffive</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+    <description>15-5 Report Template</description>
 </snippet>
