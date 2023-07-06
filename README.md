@@ -1,79 +1,44 @@
-## Sublime Text Snippets
-Initially created for sharing the snippets, this repo now has some more stuff.
+# Sublime Text Snippets and More
+Originally created for sharing Sublime Text snippets, this repository has grown to include additional resources.
 
-**Dependencies**
-
-Dates are inserted in these snippets using the insert_date package. You can install this using Sublime Text Package Control.
+## Dependencies
+The `insert_date` package is used in these snippets for inserting dates. Install this package using Sublime Text's Package Control.
 - [Package Control](https://packagecontrol.io/packages/InsertDate)
 - [Github](https://github.com/FichteFoll/InsertDate)
 
----
+## Note
+Sublime Text auto-generates the filename when you press `cmd+s/ctrl+s`. To facilitate this, the first line in most of the scripts here is the filename, making it easier to save.
 
-**Note**
+## Keymap
+Find the custom keymaps that I use [here](https://github.com/antonysallas/sublimetext-snippets/tree/main/keymap).
 
-Sublime Text autogenerates the filename when you press Cmd+S/Ctrl+S, so the first line is most of the scripts here is the filename to make it easier to save.
+## Preferences
+My custom preferences can be found [here](https://github.com/antonysallas/sublimetext-snippets/tree/main/preferencess).
 
----
+## Snippets
+### 155-Report.sublime-snippet
+This snippet is based on the 15/5 Reports practice created by Yvon Chouinard, founder of the clothing brand Patagonia. Learn more about this practice in the [Open Practice Library](https://openpracticelibrary.com/practice/15-5-reports/).
 
-1. **[Keymap](https://github.com/antonysallas/sublimetext-snippets/tree/main/keymap)**
+### decision.sublime-snippet
+This format helps record decisions in a simple text format. It can be shared via email or stored in a collaborative space such as Confluence for reference. This is based on the Open Decision Framework. More about the Open Decision Framework can be found in the [Open Practice Library](https://openpracticelibrary.com/practice/open-decision-framework/).
 
-You can find the Custom keymaps that I use.
+### user-stories.sublime-snippet
+This snippet provides a base for writing user stories. More details about User Stories can be found in the [Open Practice Library](https://www.mountaingoatsoftware.com/agile/user-stories).
 
----
+### meeting-notes.sublime-snippet
+A simple format for recording discussion points during meetings.
 
-2. **[Preferences](https://github.com/antonysallas/sublimetext-snippets/tree/main/preferences)**
-
-Here you can find my Custom Preferences.
-
----
-
-3. **[Snippets](https://github.com/antonysallas/sublimetext-snippets/tree/main/snippets)**
-
-**155-Report.sublime-snippet**
-
-This is based on the 15/5 Reports practice created by Yvon Chouinard, founder of the clothing brand Patagonia.
-You can find more about this practice here in the [Open Practice Library](https://openpracticelibrary.com/practice/15-5-reports/).
-
-
-**decision.sublime-snippet**
-
-This format can help to record the decisions made in a simple text format and can be shared through email or stored in a collaborative space such as Confluence for everybody's reference.
-This is based on the Open Decision Framework. You can find more about the Open Decision Framework here in the [Open Practice Library](https://openpracticelibrary.com/practice/open-decision-framework/).
-
-
-**user-stories.sublime-snippet**
-
-Snippet that helps you create a base for user story writing.
-You can find more details about User Stories here in the [Open Practice Library](https://www.mountaingoatsoftware.com/agile/user-stories).
-
-
-**meeting-notes.sublime-snippet**
-
-A simple format for noting down disucssion points during meetings.
-
-
-**personal-notes.sublime-snippet**
-
+### personal-notes.sublime-snippet
 A simple format for recording personal notes.
 
----
+## Syntax
+### Agile.sublime-syntax
+For content generated using the User Story snippet, save it using the `.agile` file extension. The generated file will have keywords highlighted as specified in the syntax file.
 
-4. **[Syntax](https://github.com/antonysallas/sublimetext-snippets/tree/main/syntax)**
+### Decision.sublime-syntax
+The file extension for the decision file is `.decision`.
 
-**Agile.sublime-syntax**
+### Journal.sublime-syntax
+The file extension for content created using the journal snippet is `.journal`.  
 
-For the content generated using the User Story snippet, you can save it using `.agile` file extension. And the generated file would have the keywords highlighted as included in the syntax file.
-
-
-**Decision.sublime-syntax**
-
-The extension for the decision file is `.decision`
-
-
-**Journal.sublime-syntax**
-
-And for the content created using journal snippet is as you can guess, `.journal`
-
----
-
-Have fun and feel free to modify these to suit your needs.
+Enjoy these resources and feel free to modify them to suit your needs.
